@@ -1,0 +1,62 @@
+/*Commande des voitures*/
+#main .galerie{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 100px;
+	padding-top: 100px;
+	padding-right: 100px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #45d885;
+}
+#main .galerie .one,
+#main .galerie .two,
+#main .galerie .three,
+#main .galerie .four, 
+#main .galerie .five, 
+#main .galerie .six{
+	border-bottom: none;
+	padding-bottom: 30px;
+}
+#main .galerie .one img{
+	border-radius: 0;
+	margin-left: 0;
+	margin-top: 0;
+ 	border-radius: ;
+ 	width: 100%;
+}
+#main .galerie .one img{
+	border-radius: 0;
+	margin-left: 0;
+	margin-top: 0;
+ 	border-radius: ;
+ 	width: 100%;
+}
+
+#main .galerie:hover div{
+	background: none;
+	transition: none;
+	border-bottom: none;
+	color: #444;
+}
+#main .galerie .first{
+	margin-left: 75px;
+}
+#main .galerie a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	background: #32b2c7;
+	color: #fff;
+	margin-bottom: 30px;
+	border-radius: 6px;
+	font-size: 10px;
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: 600;
+}
+#main .galerie a:hover{
+	background: #2ba6ba;
+}
